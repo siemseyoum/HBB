@@ -1,0 +1,269 @@
+/* TEMPLATE STYLESHEET */
+
+
+
+
+/* These are some suggested groupings for your stylesheet... */
+
+
+/* Default styling styling for the body.
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: basic, Amaranth, arial, avenir, sans-serif;
+    /* update with Google font, web safe font and generic fallback */
+    font-size: 100%;
+    /* the default browser font size is 16px */
+    line-height: 1.5;
+    /* update to suit your type choices */
+    color: #000;
+    /* base text colour - update to suit your design */
+    font-family: amaranth,basic, georgia,serif
+    
+}
+
+
+/* Default element re-sets  */
+
+h1, 
+
+h2,
+h3,
+p,
+ol,
+ul {
+    margin: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+
+/* Improves default font styles for forms  */
+
+input,
+textarea {
+    font-family: sans-serif;
+    /* update with Google font, web safe font and generic fallback */
+}
+
+
+/* box sizing */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+/* flexible content images code */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* your comment */
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+
+h1, 
+h2 { 
+    font-family:amaranth, basic , Google font, web safe font, generic fallback;
+}
+
+/*basketball title*/
+
+h1  {
+    text-align: center;
+ font-size: 1.8rem;
+ font-weight: bold;
+ 
+ 
+} 
+/* topic page name*/
+h2 {text-align: center  ;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+
+}
+/*paragraph*/
+p {
+    font-size: 1.rem;
+    text-align: inherit ;
+    
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+
+/* navigation (using flexbox) */
+html
+{scroll-behavior: smooth;}
+.gotop{
+    position: fixed;
+    width:50px;
+    height:50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+
+
+
+}
+.page-nav ul{ 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+
+.page-nav li{
+    
+    display:flex;
+    flex:1 1 50%;
+}
+
+.page-nav li a{
+    padding: 15px 10px;
+    text-decoration: none;
+    display:flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    }
+
+.page-nav li a:hover{
+    background: olivedrab;
+    
+}
+
+@media screen and (min-width:720px){
+    .page-nav ul {
+        flex-wrap: nowrap;
+    }
+     
+    .page-nav li{ 
+        flex:1 1 25%;
+    }
+}
+
+
+/* page header */
+.page-header {
+    background-color: olivedrab; 
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/herocopy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    
+  }
+  
+.header-content {
+    max-width: 500px;
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.header-content h1 {
+    font-size: 5rem;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header-content a {
+    display: inline-block;
+    margin-top: 10px;
+    
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 0.2em;
+    text-decoration: none;
+    
+    font-size: 2rem;
+}
+
+/* main layout */
+.container-content
+div {
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    
+  }
+
+
+/* styling for the section content */
+
+
+/* background colours for sections */
+
+.intro {
+    background-color: [ add your colour ];
+}
+
+.sound {
+    background-color:  lightblue ;
+}
+
+.image-gallery {
+    background-color: rgb(221, 218, 218);
+}
+/*photography background*/
+.video {
+    background-color: [ add your colour ];
+}
+
+.page-footer {
+   background-color: [ add your colour ]; 
+}
+
+
+
+
+
+
+
+
+ @media screen and (min-width: 750px) {
+
+    .image-gallery .image-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-gallery .an-image {
+        flex: 31.3333%;
+        margin: 10px 1%;
+        padding: 20px;
+        background: white;
+    }
+ 
+
+
+
